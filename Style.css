@@ -127,23 +127,23 @@ path {
 
 .Github {
     position: relative;
-    top: 30px;
-    right: 2px;
+    top: 27px;
+    right: 5px;
 }
 
 .Telegram {
     position: relative;
-    top: 35px;
+    top: 32px;
 }
 
 .Discord {
     position: relative;
-    top: 40px;
+    top: 37px;
 }
 
 .crosshair1 {
     border-radius: 5px;
-    left: 570px;
+    left: 560px;
     position: relative;
     top: 10px;
 }
@@ -212,4 +212,25 @@ path {
     position: relative;
     top: 5px;
     right: 180px;
+}
+
+/* Video list */
+
+.Video {
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    width: 600px;
+    height: 325px;
+    right: 100px;
+    top: 500px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(115, 204, 255, 0.596);
+}
+
+.video_media {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    border-radius: 10px;
 }
