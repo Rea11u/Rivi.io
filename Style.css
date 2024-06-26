@@ -25,6 +25,44 @@ path {
     top: 10px;
 }
 
+/* Preloader */
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #e0e0e0;
+    z-index: 1001;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
+
+.colorPre {
+    fill: #e0e0e0 !important;
+}
+
 /* Background */
 
 .image {
@@ -72,6 +110,18 @@ path {
     white-space: nowrap;
 }
 
+.studio {
+    font-size: 32px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(270deg, #000000, #858585);
+    background-clip: text;
+    position: absolute;
+    left: 150px;
+    top: 900px;
+    white-space: nowrap;
+}
+
 .Title {
     font-weight: bold;
     font-size: 350px;
@@ -99,7 +149,7 @@ path {
 .Project {
     position: absolute;
     display: flex;
-    right: 230px;
+    right: 300px;
     top: 170px;
 }
 
@@ -113,6 +163,7 @@ path {
     box-shadow: 5px 5px rgba(119, 119, 119, 0.596);
     padding: 5px 20px;
     left: 45px;
+    border: 1px solid rgb(185, 185, 185);
 }
 
 .projects {
@@ -152,6 +203,7 @@ path {
     font-size: 14px;
     top: 100px;
     right: 80px;
+    border: 1px solid rgb(185, 185, 185);
 }
 
 .Share {
@@ -183,10 +235,11 @@ path {
     width: 300px;
     height: 100px;
     position: absolute;
-    top: 340px;
+    bottom: 65px;
     border-radius: 50px;
-    right: 200px;
+    right: 150px;
     box-shadow: 5px 5px rgba(119, 119, 119, 0.596);
+    border: 1px solid rgb(185, 185, 185);
 }
 
 .circleplus {
@@ -220,14 +273,15 @@ path {
 }
 
 /* Music player */
+
 .Music {
     width: 180px;
     height: 100px;
     background-color: rgb(48, 48, 48);
     border-radius: 100px;
     position: absolute;
-    right: 580px;
-    top: 330px;
+    left: 300px;
+    top: 80px;
 }
 
 .Play {
@@ -286,7 +340,7 @@ path {
     font-weight: 600;
 }
 
-  .nav {
+.nav {
     float: right;
     display: block;
     color: #000000;
@@ -295,25 +349,25 @@ path {
     font-size: 20px;
     padding: 6px 16px;
     margin-left: 10px;
-  }
+}
   
-  .topnav a:hover {
+.topnav a:hover {
     color: rgba(99, 99, 99, 0.808);
-  }
+}
   
-  .topnav .icon {
+.topnav .icon {
     display: none;
-  }
+}
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
-  }
+}
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -325,7 +379,7 @@ path {
       display: block;
       text-align: left;
     }
-  }
+}
 
 
 
@@ -337,13 +391,14 @@ path {
     height: 150px;
     position: absolute;
     top: 600px;
-    left: 950px;
+    right: 250px;
     border-radius: 200px;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.329);
     padding: 10px 10px;
     font-family: Ubuntu;
     display: flex;
     z-index: -1;
+    border: 1px solid rgb(185, 185, 185);
 }
 
 .imgPro {
@@ -393,15 +448,16 @@ path {
 /* Pinterest */
 
 .Pinterest {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(240, 240, 240);
     width: 300px;
     height: 70px;
     position: absolute;
     z-index: 1;
     border-radius: 100px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.329);
-    right: 100px;
+    left: 270px;
     bottom: 80px;
+    border: 1px solid rgb(185, 185, 185);
 }
 
 .Pinterest a {
@@ -409,16 +465,67 @@ path {
     font-size: 40px;
     left: 30px;
     bottom: 10px;
-    color: #ffffff;
+    color: #000000;
     font-family: ubuntu;
 }
 
 .pin {
-    fill: #ffffff;
+    fill: #000000;
 }
 
 .Pin {
     position: relative;
     top: 5px;
     left: 5px;
+}
+
+/* VK */
+
+.VK {
+    background-color: rgb(240, 240, 240);
+    width: 160px;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.329);
+    left: 80px;
+    bottom: 80px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.VK a {
+    position: relative;
+    font-size: 40px;
+    left: 15px;
+    bottom: 10px;
+    color: #000000;
+    font-family: ubuntu;
+}
+
+.VKmedia {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+/* HTML*/
+
+.html {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: 670px;
+    border-radius: 10px;
+}
+
+/* Rimuru icon */
+
+.rimuru {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    right: 300px;
+    top: 285px;
+    z-index: -10;
 }
