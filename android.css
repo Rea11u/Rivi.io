@@ -1,9 +1,8 @@
-html, body {
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 @media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
     .image {
         left: 10px;
         top: 300px;
