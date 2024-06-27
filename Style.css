@@ -20,9 +20,9 @@ path {
 
 .crosshair1 {
     border-radius: 5px;
-    right: 850px;
+    right: 870px;
     position: relative;
-    top: 10px;
+    top: 3px;
 }
 
 /* Preloader */
@@ -105,7 +105,7 @@ path {
     background: linear-gradient(270deg, #000000, #858585);
     background-clip: text;
     position: absolute;
-    left: 1725px;
+    left: 1770px;
     top: 500px;
     white-space: nowrap;
 }
@@ -422,7 +422,6 @@ path {
     right: 150px;
     top: 35px;
     width: 700px;
-    white-space: wrap;
 }
 
 .hello {
@@ -443,6 +442,46 @@ path {
     font-size: 40px;
     left: 40px;
     bottom: 20px;
+}
+
+/* Mobile profile */
+
+.ProfileM {
+    background-color: rgb(240, 240, 240);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    right: 230px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.329);
+    padding: 10px 10px;
+    font-family: 'Ubuntu';
+    border: 1px solid rgb(185, 185, 185);
+    display: none;
+}
+
+.name {
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    bottom: 60px;
+    white-space: nowrap;
+}
+.textM {
+    display: block;
+    position: relative;
+    font-size: 17px;
+    bottom: 75px;
+    left: 5px;
+}
+
+.Mimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    border: 1px solid rgb(110, 110, 110);
+    position: relative;
 }
 
 /* Pinterest */
@@ -528,4 +567,11 @@ path {
     right: 300px;
     top: 285px;
     z-index: -10;
+}
+
+/* Mobile crosshair */
+.cross {
+    border-radius: 5px;
+    position: absolute;
+    display: none;
 }

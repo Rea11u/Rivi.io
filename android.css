@@ -1,0 +1,144 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@media (max-width: 500px) {
+    .image {
+        left: 10px;
+        top: 300px;
+        width: 300px;
+        height: auto;
+    }
+    .vborder {
+        right: 20px;
+    }
+    .hborder {
+        width: 600px;
+        top: 820px;
+    }
+    .Title {
+        right: 60px;
+        font-size: 115px;
+        top: 380px;
+    }
+    .Music {
+        width: 10px;
+        height: 10px;
+        top: 690px;
+        left: 30px;
+    }
+    .Play {
+        width: 150px;
+        height: auto;
+    }
+    .Media {
+        width: 30px;
+        height: 210px;
+        top: 515px;
+        right: 45px;
+    }
+    .Share {
+        top: 1px;
+    }
+    .Discord {
+        width: 33px;
+        height: 33px;
+    }
+    .Telegram {
+        width: 33px;
+        height: 33px;
+    }
+    .Github {
+        width: 40px;
+        height: 40px;
+    }
+    .Pinterest {
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        left: 230px;
+        bottom: 50px;
+    }
+    .Pin {
+        width: 30px;
+        height: 30px;
+    }
+    .Pinterest a {
+        font-size: 23px;
+        left: 8px;
+        bottom: 1px;
+    }
+    .VK {
+        width: 90px;
+        height: 40px;
+        border-radius: 30px;
+        left: 120px;
+        bottom: 50px;
+    }
+    .VKmedia {
+        width: 30px;
+        height: 30px;
+    }
+    .VK a {
+        font-size: 23px;
+        left: 8px;
+        bottom: 1px;
+    }
+    .Photo {
+        width: 228px;
+        height: 75px;
+        right: 150px;
+        top: 230px;
+    }
+    .circleplus {
+        width: 67px;
+        height: 67px;
+        left: 157px;
+        top: 0px;
+    }
+    .icon1 {
+        width: 60px;
+        height: 60px;
+        top: 2px;
+        left: 10px;
+    }
+    .icon2 {
+        width: 60px;
+        height: 60px;
+        top: 2px;
+        right: 140px;
+    }
+    .Profile {
+        display: none;
+    }
+    .hello {
+        display: none;
+    }
+    .Project {
+        width: 100px;
+        height: 50px;
+        right: 280px;
+        top: 125px;
+    }
+    .projects {
+        left: 185px;
+        bottom: 75px;
+        font-size: 40px;
+    }
+    .proUI {
+        width: 120px;
+        height: 60px;
+    }
+    .visual {
+        font-size: 20px;
+    }
+    .cross {
+        right: 100px;
+        top: 330px;
+        display: block;
+    }
+    .ProfileM {
+        display: block;
+    }
+}
